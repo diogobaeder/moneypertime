@@ -17,13 +17,13 @@ class StoreTest(TestCase):
     def retrieves_amount_earned_per_second(self):
         size1 = 2
         size2 = 3
-        amount = 200.0
+        amount = 200
         interval = 20
 
         store = mommy.make(Store, size1=size1, size2=size2, amount=amount, interval=interval)
         store = Store.objects.get(id=store.id)
 
-        self.assertEqual(store.performance, amount / (interval * size1 * size2))
+        self.assertEqual(store.performance, float(amount) / (interval * size1 * size2))
 
     @istest
     def has_unicode_defined_by_name(self):

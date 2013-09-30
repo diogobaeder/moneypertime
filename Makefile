@@ -11,3 +11,6 @@ run:
 
 dump-stores:
 	$(MANAGE) dumpdata stores > moneypertime/stores/stores.json
+
+load-stores:
+	$(MANAGE) loaddata moneypertime/stores/stores.json
