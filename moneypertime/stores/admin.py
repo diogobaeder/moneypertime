@@ -7,18 +7,20 @@ from moneypertime.stores.models import Store
 
 def size(instance):
     return u'{}x{}'.format(instance.size1, instance.size2)
+size.admin_order_field = 'size1'
 
 
-def build_time(instance):
-    seconds = instance.build_time
-    return str(datetime.timedelta(seconds=seconds))
-build_time.admin_order_field = 'build_time'
+def time_field(field, title):
+    def field_getter(instance):
+        seconds = getattr(instance, field)
+        return str(datetime.timedelta(seconds=seconds))
+    field_getter.admin_order_field = field
+    field_getter.short_description = title
+    return field_getter
 
 
-def interval(instance):
-    seconds = instance.interval
-    return str(datetime.timedelta(seconds=seconds))
-interval.admin_order_field = 'interval'
+build_time = time_field('build_time', 'Build time')
+interval = time_field('interval', 'Interval')
 
 
 class PerformanceFilter(admin.SimpleListFilter):
