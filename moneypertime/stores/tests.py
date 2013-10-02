@@ -23,7 +23,9 @@ class StoreTest(TestCase):
         store = mommy.make(Store, size1=size1, size2=size2, amount=amount, interval=interval)
         store = Store.objects.get(id=store.id)
 
-        self.assertEqual(store.performance, float(amount) / (interval * size1 * size2))
+        expected_performance = round(float(amount) / (interval * size1 * size2), 2)
+
+        self.assertEqual(store.performance, expected_performance)
 
     @istest
     def has_unicode_defined_by_name(self):

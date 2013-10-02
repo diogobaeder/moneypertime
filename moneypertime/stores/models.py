@@ -19,10 +19,12 @@ class Store(models.Model):
     should_create_on_water = models.BooleanField(help_text='Should the store be created on water?', default=False)
     amount = models.IntegerField(help_text='Amount earned per interval')
     interval = models.IntegerField(help_text='Interval, in seconds, in which the amount is earned')
+    performance = models.FloatField(help_text='Calculated performance (amount / (interval * size1 * size2))', editable=False, null=True, blank=True, default=0)
 
     def __unicode__(self):
         return self.name
 
-    @property
-    def performance(self):
-        return float(self.amount) / (self.interval * self.size1 * self.size2)
+    def save(self, *args, **kwargs):
+        performance = float(self.amount) / (self.interval * self.size1 * self.size2)
+        self.performance = round(performance, 2)
+        super(Store, self).save(*args, **kwargs)
