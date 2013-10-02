@@ -1,1 +1,488 @@
-[{"pk": 1, "model": "stores.store", "fields": {"name": "Fazenda de animais", "size2": 2, "price_type": "C", "employees": 5, "interval": 90, "experience": 10, "amount": 150, "build_time": 180, "performance": 0, "price": 400, "should_create_on_water": false, "size1": 2}}, {"pk": 2, "model": "stores.store", "fields": {"name": "Fazenda", "size2": 2, "price_type": "C", "employees": 5, "interval": 60, "experience": 10, "amount": 100, "build_time": 120, "performance": 0, "price": 300, "should_create_on_water": false, "size1": 2}}, {"pk": 3, "model": "stores.store", "fields": {"name": "Banca de revistas", "size2": 2, "price_type": "G", "employees": 5, "interval": 900, "experience": 10, "amount": 1050, "build_time": 1800, "performance": 0, "price": 2, "should_create_on_water": false, "size1": 2}}, {"pk": 4, "model": "stores.store", "fields": {"name": "Confeitaria", "size2": 2, "price_type": "G", "employees": 5, "interval": 600, "experience": 200, "amount": 2200, "build_time": 600, "performance": 0, "price": 20, "should_create_on_water": false, "size1": 2}}, {"pk": 5, "model": "stores.store", "fields": {"name": "Floricultura", "size2": 2, "price_type": "G", "employees": 10, "interval": 1200, "experience": 300, "amount": 4600, "build_time": 1200, "performance": 0, "price": 25, "should_create_on_water": false, "size1": 2}}, {"pk": 6, "model": "stores.store", "fields": {"name": "Loja de doces", "size2": 2, "price_type": "G", "employees": 10, "interval": 3600, "experience": 400, "amount": 14400, "build_time": 3600, "performance": 0, "price": 30, "should_create_on_water": false, "size1": 2}}, {"pk": 7, "model": "stores.store", "fields": {"name": "Porto", "size2": 4, "price_type": "C", "employees": 10, "interval": 180, "experience": 50, "amount": 250, "build_time": 0, "performance": 0, "price": 14000, "should_create_on_water": false, "size1": 4}}, {"pk": 8, "model": "stores.store", "fields": {"name": "Esquina do caf\u00e9", "size2": 2, "price_type": "C", "employees": 25, "interval": 1800, "experience": 60, "amount": 2600, "build_time": 3600, "performance": 0, "price": 9000, "should_create_on_water": false, "size1": 2}}, {"pk": 9, "model": "stores.store", "fields": {"name": "Barraca de hotdog", "size2": 1, "price_type": "G", "employees": 4, "interval": 60, "experience": 70, "amount": 250, "build_time": 0, "performance": 0, "price": 5, "should_create_on_water": false, "size1": 1}}, {"pk": 10, "model": "stores.store", "fields": {"name": "Lanchonete", "size2": 2, "price_type": "C", "employees": 35, "interval": 3600, "experience": 80, "amount": 5600, "build_time": 7200, "performance": 0, "price": 52000, "should_create_on_water": false, "size1": 2}}, {"pk": 11, "model": "stores.store", "fields": {"name": "Posto de gasolina", "size2": 2, "price_type": "C", "employees": 40, "interval": 1500, "experience": 90, "amount": 2400, "build_time": 3000, "performance": 0, "price": 59000, "should_create_on_water": false, "size1": 2}}, {"pk": 12, "model": "stores.store", "fields": {"name": "Torre da TV", "size2": 3, "price_type": "G", "employees": 25, "interval": 7200, "experience": 1100, "amount": 37200, "build_time": 7200, "performance": 0, "price": 40, "should_create_on_water": false, "size1": 3}}, {"pk": 13, "model": "stores.store", "fields": {"name": "Supermercado", "size2": 2, "price_type": "C", "employees": 50, "interval": 2700, "experience": 120, "amount": 4800, "build_time": 5400, "performance": 0, "price": 120000, "should_create_on_water": false, "size1": 2}}, {"pk": 14, "model": "stores.store", "fields": {"name": "Plataforma de petr\u00f3leo", "size2": 3, "price_type": "G", "employees": 30, "interval": 10800, "experience": 1300, "amount": 59400, "build_time": 0, "performance": 0, "price": 45, "should_create_on_water": true, "size1": 3}}, {"pk": 15, "model": "stores.store", "fields": {"name": "Padaria", "size2": 2, "price_type": "C", "employees": 60, "interval": 900, "experience": 150, "amount": 1750, "build_time": 1800, "performance": 0, "price": 130000, "should_create_on_water": false, "size1": 2}}, {"pk": 16, "model": "stores.store", "fields": {"name": "Loja de brinquedos", "size2": 2, "price_type": "G", "employees": 30, "interval": 4800, "experience": 1500, "amount": 28000, "build_time": 4800, "performance": 0, "price": 30, "should_create_on_water": false, "size1": 2}}, {"pk": 17, "model": "stores.store", "fields": {"name": "Hotel", "size2": 2, "price_type": "C", "employees": 65, "interval": 7200, "experience": 160, "amount": 14400, "build_time": 14400, "performance": 0, "price": 400000, "should_create_on_water": false, "size1": 2}}, {"pk": 18, "model": "stores.store", "fields": {"name": "Hotel na \u00e1gua", "size2": 2, "price_type": "G", "employees": 35, "interval": 14400, "experience": 1700, "amount": 88800, "build_time": 0, "performance": 0, "price": 45, "should_create_on_water": true, "size1": 2}}, {"pk": 19, "model": "stores.store", "fields": {"name": "Restaurante fast food", "size2": 2, "price_type": "C", "employees": 75, "interval": 3600, "experience": 180, "amount": 7600, "build_time": 7200, "performance": 0, "price": 360000, "should_create_on_water": false, "size1": 2}}, {"pk": 20, "model": "stores.store", "fields": {"name": "F\u00e1brica", "size2": 2, "price_type": "C", "employees": 80, "interval": 9000, "experience": 190, "amount": 19500, "build_time": 18000, "performance": 0, "price": 710000, "should_create_on_water": false, "size1": 2}}, {"pk": 21, "model": "stores.store", "fields": {"name": "Cafeteria", "size2": 2, "price_type": "C", "employees": 80, "interval": 2700, "experience": 200, "amount": 6000, "build_time": 5400, "performance": 0, "price": 400000, "should_create_on_water": false, "size1": 2}}, {"pk": 22, "model": "stores.store", "fields": {"name": "Danceteria", "size2": 2, "price_type": "G", "employees": 45, "interval": 1800, "experience": 2100, "amount": 12300, "build_time": 1800, "performance": 0, "price": 40, "should_create_on_water": false, "size1": 2}}, {"pk": 23, "model": "stores.store", "fields": {"name": "Banco", "size2": 2, "price_type": "C", "employees": 90, "interval": 10800, "experience": 220, "amount": 25200, "build_time": 21600, "performance": 0, "price": 1200000, "should_create_on_water": false, "size1": 2}}, {"pk": 24, "model": "stores.store", "fields": {"name": "Escrit\u00f3rio pequeno", "size2": 2, "price_type": "C", "employees": 95, "interval": 900, "experience": 230, "amount": 2150, "build_time": 1800, "performance": 0, "price": 410000, "should_create_on_water": false, "size1": 2}}, {"pk": 25, "model": "stores.store", "fields": {"name": "Boliche", "size2": 2, "price_type": "G", "employees": 50, "interval": 3600, "experience": 2400, "amount": 26400, "build_time": 3600, "performance": 0, "price": 55, "should_create_on_water": false, "size1": 2}}, {"pk": 26, "model": "stores.store", "fields": {"name": "Pousada", "size2": 2, "price_type": "C", "employees": 105, "interval": 5400, "experience": 260, "amount": 13800, "build_time": 10800, "performance": 0, "price": 1100000, "should_create_on_water": false, "size1": 2}}]
+[
+    {
+        "fields": {
+            "amount": 150,
+            "build_time": 180,
+            "employees": 5,
+            "experience": 10,
+            "interval": 90,
+            "name": "Fazenda de animais",
+            "performance": 0.42,
+            "price": 400,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "amount": 100,
+            "build_time": 120,
+            "employees": 5,
+            "experience": 10,
+            "interval": 60,
+            "name": "Fazenda",
+            "performance": 0.42,
+            "price": 300,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "amount": 1050,
+            "build_time": 1800,
+            "employees": 5,
+            "experience": 10,
+            "interval": 900,
+            "name": "Banca de revistas",
+            "performance": 0.29,
+            "price": 2,
+            "price_type": "G",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "amount": 2200,
+            "build_time": 600,
+            "employees": 5,
+            "experience": 200,
+            "interval": 600,
+            "name": "Confeitaria",
+            "performance": 0.92,
+            "price": 20,
+            "price_type": "G",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "amount": 4600,
+            "build_time": 1200,
+            "employees": 10,
+            "experience": 300,
+            "interval": 1200,
+            "name": "Floricultura",
+            "performance": 0.96,
+            "price": 25,
+            "price_type": "G",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "amount": 14400,
+            "build_time": 3600,
+            "employees": 10,
+            "experience": 400,
+            "interval": 3600,
+            "name": "Loja de doces",
+            "performance": 1.0,
+            "price": 30,
+            "price_type": "G",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "amount": 250,
+            "build_time": 0,
+            "employees": 10,
+            "experience": 50,
+            "interval": 180,
+            "name": "Porto",
+            "performance": 0.09,
+            "price": 14000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 4,
+            "size2": 4
+        },
+        "model": "stores.store",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "amount": 2600,
+            "build_time": 3600,
+            "employees": 25,
+            "experience": 60,
+            "interval": 1800,
+            "name": "Esquina do caf\u00e9",
+            "performance": 0.36,
+            "price": 9000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "amount": 250,
+            "build_time": 0,
+            "employees": 4,
+            "experience": 70,
+            "interval": 60,
+            "name": "Barraca de hotdog",
+            "performance": 4.17,
+            "price": 5,
+            "price_type": "G",
+            "should_create_on_water": false,
+            "size1": 1,
+            "size2": 1
+        },
+        "model": "stores.store",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "amount": 5600,
+            "build_time": 7200,
+            "employees": 35,
+            "experience": 80,
+            "interval": 3600,
+            "name": "Lanchonete",
+            "performance": 0.39,
+            "price": 52000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "amount": 2400,
+            "build_time": 3000,
+            "employees": 40,
+            "experience": 90,
+            "interval": 1500,
+            "name": "Posto de gasolina",
+            "performance": 0.4,
+            "price": 59000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 11
+    },
+    {
+        "fields": {
+            "amount": 37200,
+            "build_time": 7200,
+            "employees": 25,
+            "experience": 1100,
+            "interval": 7200,
+            "name": "Torre da TV",
+            "performance": 0.57,
+            "price": 40,
+            "price_type": "G",
+            "should_create_on_water": false,
+            "size1": 3,
+            "size2": 3
+        },
+        "model": "stores.store",
+        "pk": 12
+    },
+    {
+        "fields": {
+            "amount": 4800,
+            "build_time": 5400,
+            "employees": 50,
+            "experience": 120,
+            "interval": 2700,
+            "name": "Supermercado",
+            "performance": 0.44,
+            "price": 120000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "amount": 59400,
+            "build_time": 0,
+            "employees": 30,
+            "experience": 1300,
+            "interval": 10800,
+            "name": "Plataforma de petr\u00f3leo",
+            "performance": 0.61,
+            "price": 45,
+            "price_type": "G",
+            "should_create_on_water": true,
+            "size1": 3,
+            "size2": 3
+        },
+        "model": "stores.store",
+        "pk": 14
+    },
+    {
+        "fields": {
+            "amount": 1750,
+            "build_time": 1800,
+            "employees": 60,
+            "experience": 150,
+            "interval": 900,
+            "name": "Padaria",
+            "performance": 0.49,
+            "price": 130000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 15
+    },
+    {
+        "fields": {
+            "amount": 28000,
+            "build_time": 4800,
+            "employees": 30,
+            "experience": 1500,
+            "interval": 4800,
+            "name": "Loja de brinquedos",
+            "performance": 1.46,
+            "price": 30,
+            "price_type": "G",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 16
+    },
+    {
+        "fields": {
+            "amount": 14400,
+            "build_time": 14400,
+            "employees": 65,
+            "experience": 160,
+            "interval": 7200,
+            "name": "Hotel",
+            "performance": 0.5,
+            "price": 400000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 17
+    },
+    {
+        "fields": {
+            "amount": 88800,
+            "build_time": 0,
+            "employees": 35,
+            "experience": 1700,
+            "interval": 14400,
+            "name": "Hotel na \u00e1gua",
+            "performance": 1.54,
+            "price": 45,
+            "price_type": "G",
+            "should_create_on_water": true,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 18
+    },
+    {
+        "fields": {
+            "amount": 7600,
+            "build_time": 7200,
+            "employees": 75,
+            "experience": 180,
+            "interval": 3600,
+            "name": "Restaurante fast food",
+            "performance": 0.53,
+            "price": 360000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 19
+    },
+    {
+        "fields": {
+            "amount": 19500,
+            "build_time": 18000,
+            "employees": 80,
+            "experience": 190,
+            "interval": 9000,
+            "name": "F\u00e1brica",
+            "performance": 0.54,
+            "price": 710000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 20
+    },
+    {
+        "fields": {
+            "amount": 6000,
+            "build_time": 5400,
+            "employees": 80,
+            "experience": 200,
+            "interval": 2700,
+            "name": "Cafeteria",
+            "performance": 0.56,
+            "price": 400000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 21
+    },
+    {
+        "fields": {
+            "amount": 12300,
+            "build_time": 1800,
+            "employees": 45,
+            "experience": 2100,
+            "interval": 1800,
+            "name": "Danceteria",
+            "performance": 1.71,
+            "price": 40,
+            "price_type": "G",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 22
+    },
+    {
+        "fields": {
+            "amount": 25200,
+            "build_time": 21600,
+            "employees": 90,
+            "experience": 220,
+            "interval": 10800,
+            "name": "Banco",
+            "performance": 0.58,
+            "price": 1200000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 23
+    },
+    {
+        "fields": {
+            "amount": 2150,
+            "build_time": 1800,
+            "employees": 95,
+            "experience": 230,
+            "interval": 900,
+            "name": "Escrit\u00f3rio pequeno",
+            "performance": 0.6,
+            "price": 410000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 24
+    },
+    {
+        "fields": {
+            "amount": 26400,
+            "build_time": 3600,
+            "employees": 50,
+            "experience": 2400,
+            "interval": 3600,
+            "name": "Boliche",
+            "performance": 1.83,
+            "price": 55,
+            "price_type": "G",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 25
+    },
+    {
+        "fields": {
+            "amount": 13800,
+            "build_time": 10800,
+            "employees": 105,
+            "experience": 260,
+            "interval": 5400,
+            "name": "Pousada",
+            "performance": 0.64,
+            "price": 1100000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 26
+    },
+    {
+        "fields": {
+            "amount": 2350,
+            "build_time": 1800,
+            "employees": 110,
+            "experience": 270,
+            "interval": 900,
+            "name": "Restaurante",
+            "performance": 0.65,
+            "price": 570000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 27
+    }
+]
