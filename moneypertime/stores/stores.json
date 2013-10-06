@@ -484,5 +484,77 @@
         },
         "model": "stores.store",
         "pk": 27
+    },
+    {
+        "fields": {
+            "amount": 30000,
+            "build_time": 21600,
+            "employees": 120,
+            "experience": 300,
+            "interval": 10800,
+            "name": "Cinema",
+            "performance": 0.69,
+            "price": 2100000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 28
+    },
+    {
+        "fields": {
+            "amount": 10200,
+            "build_time": 7200,
+            "employees": 125,
+            "experience": 310,
+            "interval": 3600,
+            "name": "Loja de roupas",
+            "performance": 0.71,
+            "price": 1200000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 29
+    },
+    {
+        "fields": {
+            "amount": 5200,
+            "build_time": 3600,
+            "employees": 130,
+            "experience": 320,
+            "interval": 1800,
+            "name": "Restaurante chin\u00eas",
+            "performance": 0.72,
+            "price": 940000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 30
+    },
+    {
+        "fields": {
+            "amount": 26500,
+            "build_time": 18000,
+            "employees": 135,
+            "experience": 330,
+            "interval": 9000,
+            "name": "Escrit\u00f3rio m\u00e9dio",
+            "performance": 0.74,
+            "price": 2400000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 31
     }
 ]
