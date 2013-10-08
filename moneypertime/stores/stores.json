@@ -556,5 +556,77 @@
         },
         "model": "stores.store",
         "pk": 31
+    },
+    {
+        "fields": {
+            "amount": 43200,
+            "build_time": 28800,
+            "employees": 140,
+            "experience": 340,
+            "interval": 14400,
+            "name": "Zool\u00f3gico",
+            "performance": 0.33,
+            "price": 3800000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 3,
+            "size2": 3
+        },
+        "model": "stores.store",
+        "pk": 32
+    },
+    {
+        "fields": {
+            "amount": 68400,
+            "build_time": 3600,
+            "employees": 100,
+            "experience": 100,
+            "interval": 7200,
+            "name": "Sorveteria",
+            "performance": 2.38,
+            "price": 30,
+            "price_type": "G",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 33
+    },
+    {
+        "fields": {
+            "amount": 55000,
+            "build_time": 36000,
+            "employees": 140,
+            "experience": 350,
+            "interval": 18000,
+            "name": "Hotel grande",
+            "performance": 0.34,
+            "price": 4900000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 3,
+            "size2": 3
+        },
+        "model": "stores.store",
+        "pk": 34
+    },
+    {
+        "fields": {
+            "amount": 39200,
+            "build_time": 25200,
+            "employees": 145,
+            "experience": 360,
+            "interval": 12600,
+            "name": "Escrit\u00f3rio grande",
+            "performance": 0.78,
+            "price": 4000000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 35
     }
 ]
