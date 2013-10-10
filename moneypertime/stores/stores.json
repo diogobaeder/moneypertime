@@ -577,14 +577,14 @@
     },
     {
         "fields": {
-            "amount": 68400,
-            "build_time": 3600,
-            "employees": 100,
-            "experience": 100,
+            "amount": 69600,
+            "build_time": 7200,
+            "employees": 80,
+            "experience": 3800,
             "interval": 7200,
             "name": "Sorveteria",
-            "performance": 2.38,
-            "price": 30,
+            "performance": 2.42,
+            "price": 40,
             "price_type": "G",
             "should_create_on_water": false,
             "size1": 2,
@@ -628,5 +628,77 @@
         },
         "model": "stores.store",
         "pk": 35
+    },
+    {
+        "fields": {
+            "amount": 11400,
+            "build_time": 7200,
+            "employees": 150,
+            "experience": 370,
+            "interval": 3600,
+            "name": "Restaurante de frutos do mar",
+            "performance": 0.79,
+            "price": 2000000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 36
+    },
+    {
+        "fields": {
+            "amount": 47200,
+            "build_time": 28800,
+            "employees": 160,
+            "experience": 390,
+            "interval": 14400,
+            "name": "Livraria",
+            "performance": 0.82,
+            "price": 5800000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 37
+    },
+    {
+        "fields": {
+            "amount": 144000,
+            "build_time": 14400,
+            "employees": 80,
+            "experience": 4000,
+            "interval": 14400,
+            "name": "Loja de discos",
+            "performance": 2.5,
+            "price": 40,
+            "price_type": "G",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 38
+    },
+    {
+        "fields": {
+            "amount": 54000,
+            "build_time": 32400,
+            "employees": 160,
+            "experience": 400,
+            "interval": 16200,
+            "name": "Restaurante mexicano",
+            "performance": 0.83,
+            "price": 7200000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 39
     }
 ]
