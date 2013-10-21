@@ -700,5 +700,113 @@
         },
         "model": "stores.store",
         "pk": 39
+    },
+    {
+        "fields": {
+            "amount": 183000,
+            "build_time": 18000,
+            "employees": 85,
+            "experience": 4100,
+            "interval": 18000,
+            "name": "Pet shop",
+            "performance": 2.54,
+            "price": 40,
+            "price_type": "G",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 40
+    },
+    {
+        "fields": {
+            "amount": 67100,
+            "build_time": 39600,
+            "employees": 165,
+            "experience": 410,
+            "interval": 19800,
+            "name": "Bar",
+            "performance": 0.85,
+            "price": 9600000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 41
+    },
+    {
+        "fields": {
+            "amount": 57000,
+            "build_time": 36000,
+            "employees": 150,
+            "experience": 370,
+            "interval": 18000,
+            "name": "Cassino",
+            "performance": 0.79,
+            "price": 5700000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 42
+    },
+    {
+        "fields": {
+            "amount": 153600,
+            "build_time": 60,
+            "employees": 200,
+            "experience": 4400,
+            "interval": 14400,
+            "name": "Escrit\u00f3rio grande (3x3)",
+            "performance": 1.19,
+            "price": 20,
+            "price_type": "G",
+            "should_create_on_water": false,
+            "size1": 3,
+            "size2": 3
+        },
+        "model": "stores.store",
+        "pk": 43
+    },
+    {
+        "fields": {
+            "amount": 78000,
+            "build_time": 43200,
+            "employees": 180,
+            "experience": 450,
+            "interval": 21600,
+            "name": "Farm\u00e1cia",
+            "performance": 0.9,
+            "price": 11500000,
+            "price_type": "C",
+            "should_create_on_water": false,
+            "size1": 2,
+            "size2": 2
+        },
+        "model": "stores.store",
+        "pk": 44
+    },
+    {
+        "fields": {
+            "amount": 198000,
+            "build_time": 60,
+            "employees": 250,
+            "experience": 4600,
+            "interval": 18000,
+            "name": "Centro comercial",
+            "performance": 1.22,
+            "price": 20,
+            "price_type": "G",
+            "should_create_on_water": false,
+            "size1": 3,
+            "size2": 3
+        },
+        "model": "stores.store",
+        "pk": 45
     }
 ]
